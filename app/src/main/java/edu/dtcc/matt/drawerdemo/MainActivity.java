@@ -82,21 +82,20 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
 
-        if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_fox) {
 
-            Toast toast=Toast.makeText(getApplicationContext(),"Somebody say Gallery?",Toast.LENGTH_SHORT);
+            Toast toast=Toast.makeText(getApplicationContext(),"Somebody say Fox?",Toast.LENGTH_SHORT);
             toast.show();
 
-        } else if (id == R.id.nav_shmideshow) {
+        } else if (id == R.id.nav_wolf) {
 
-            Toast toast=Toast.makeText(getApplicationContext(),"Now its Shmideshow",Toast.LENGTH_SHORT);
+            Toast toast=Toast.makeText(getApplicationContext(),"Now its Wolf",Toast.LENGTH_SHORT);
             toast.show();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_lion) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_eagle) {
 
-        } else if (id == R.id.nav_send) {
 
         }
 
