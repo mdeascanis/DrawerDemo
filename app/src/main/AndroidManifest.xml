@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".fox" />
+        <activity android:name=".eagle" />
+        <activity android:name=".lion" />
+        <activity android:name=".wolf"></activity>
     </application>
 
 </manifest>

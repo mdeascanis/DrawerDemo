@@ -1,5 +1,6 @@
 package edu.dtcc.matt.drawerdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -87,16 +88,27 @@ public class MainActivity extends AppCompatActivity
             Toast toast=Toast.makeText(getApplicationContext(),"Somebody say Fox?",Toast.LENGTH_SHORT);
             toast.show();
 
+            Intent intent = new Intent(getApplicationContext(), fox.class);
+
+            startActivity(intent);
+
         } else if (id == R.id.nav_wolf) {
 
-            Toast toast=Toast.makeText(getApplicationContext(),"Now its Wolf",Toast.LENGTH_SHORT);
-            toast.show();
+            Intent intent = new Intent(getApplicationContext(), wolf.class);
+
+            startActivity(intent);
 
         } else if (id == R.id.nav_lion) {
 
+            Intent intent = new Intent(getApplicationContext(), lion.class);
+
+            startActivity(intent);
+
         } else if (id == R.id.nav_eagle) {
 
+            Intent intent = new Intent(getApplicationContext(), eagle.class);
 
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
